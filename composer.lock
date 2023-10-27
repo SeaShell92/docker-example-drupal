@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "53726e6665fc7ac7aa358c0e570e9040",
+    "content-hash": "b939b902ddaa81d71fcaca1d973cde46",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2305,6 +2305,50 @@
             "homepage": "https://www.drupal.org/project/token",
             "support": {
                 "source": "https://git.drupalcode.org/project/token"
+            }
+        },
+        {
+            "name": "drupal/vani",
+            "version": "10.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/vani.git",
+                "reference": "10.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/vani-10.0.1.zip",
+                "reference": "10.0.1",
+                "shasum": "ce9b253619f1e4486ea00d71e35bc35cc1b5d38e"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "10.0.1",
+                    "datestamp": "1695651010",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9, 10 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/vani\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/vani-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://demo2.drupar.com/vani\" target=\"_blank\">Demo</a>",
+            "homepage": "https://www.drupal.org/project/vani",
+            "support": {
+                "source": "https://git.drupalcode.org/project/vani"
             }
         },
         {

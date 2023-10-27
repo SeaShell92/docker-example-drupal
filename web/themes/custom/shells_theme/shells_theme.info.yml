@@ -1,0 +1,22 @@
+name: shells_theme
+type: theme
+'base theme': stable9
+starterkit: true
+version: VERSION
+libraries:
+  - shells_theme/base
+  - shells_theme/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - shells_theme/user
+  core/drupal.dropbutton:
+    - shells_theme/dropbutton
+  core/drupal.dialog:
+    - shells_theme/dialog
+  file/drupal.file:
+    - shells_theme/file
+  core/drupal.progress:
+    - shells_theme/progress
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.1.5'
